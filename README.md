@@ -1,13 +1,66 @@
-# GLYF 웹 사이트 리뉴얼
-* 작업기간: 2025-04-25 ~ 2025.05.17 (22일 소요)
-* 코딩기간: 2025.05.19 ~ 2025.05.26 (7일 소요)
-* 주요역할: 기획, 디자인, 코딩
-* 기여도: 개인작업
-* 사용툴: ![Figma](https://github.com/user-attachments/assets/67394921-4b2e-4896-a94e-c3755396fe90) ![Visual Studio Code](https://github.com/user-attachments/assets/b8a57bc3-3529-4729-8782-6291feaae204) ![Photoshop](https://github.com/user-attachments/assets/2746db4e-38fb-43cd-87f9-2ca47e801e5f) ![Illustrator](https://github.com/user-attachments/assets/234addbe-17ab-48ce-b1ac-69bbf0db9f0b)
-* 사용언어: ![html](https://github.com/user-attachments/assets/33812e56-e55d-4081-946b-5e6646007ee8) ![css](https://github.com/user-attachments/assets/df4a8b6c-f552-4247-825a-619af7bf9e6a) ![JavaScript](https://github.com/user-attachments/assets/7dda600a-690b-4437-806f-7a10192d3632)
+## 💡 GLYF 웹 사이트 리뉴얼 (React + Vite로 체인지)
 
-# GLYF 웹 사이트 링크
-* 웹사이트: http://zaero1699.dothome.co.kr/GLYF
+### 🖥️ 관련 링크
+|목록|링크|비고|
+|:--|:--|:--|
+|`figma`|[피그마 작업물 링크](https://www.figma.com/design/HDrvympY3fkeLFb8Bf8RjE/GLYF---%EB%A6%AC%EB%89%B4%EC%96%BC?node-id=86-226&t=fWqKEWJyV8Em28X0-1)||
+|`vercel`|||
+|`velog`|||
 
-# 안내사항
-* 작업과정.pdf 파일이 안열리면 새로고침하면 보입니다.
+## ℹ️ 작업물 정보
+|정보|설명|
+|:---|:---|
+|🗓️ 작업 기간|2025-11-24 ~ |
+|⚒️ 작업 분야|코딩(프론트엔드)|
+|🧑‍💻 기여도|개인 작업|
+
+
+## 🧩 개발 환경
+|분야|기술|
+|:---|:---|
+|Frontend|`React`, `Typescript`, `Vite`|
+|Library|`Lenis`, `Lottie`, `Swiper`, `formspree`|
+|Styling| `CSS3`, `Tailwind CSS`, `Framer Motion`|
+|Test|`Jest(Vitest)`, `React Testing Library`|
+|Version Control|`Git`, `GitHub`|
+|Deployment|`Vercel`|
+|Design Tool|![Figma](https://github.com/user-attachments/assets/67394921-4b2e-4896-a94e-c3755396fe90)|
+
+## 📁 폴더 구조
+
+```
+GLYF/
+├── node_modules/
+│   │   ├── .../
+├── public/
+│   │   ├── .../
+├── src/
+│   ├── assets/
+│   ├── components/: 공통 컴포넌트 관리
+│   │   ├── Header/: Header 컴포넌트 담당 폴더
+│   │   │   └── /..
+│   │   ├── Footer/:
+│   │       └── /..
+│   │
+│   │
+│   ├── pages/
+│   │   ├── Main/ : 메인페이지
+│   │       └── index.tsx
+│   │
+│   │ 
+│   ├── App.css
+│   ├── App.tsx : 리액트 애플리케이션의 시작점
+│   ├── index.css 
+│   └── main.tsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
+
