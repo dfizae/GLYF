@@ -8,8 +8,8 @@ export default function GNB() {
             <ul className="flex gap-8">
                 {menuDate.map((items, i) => (
                     <li key={i} >
-                        <Link to={items.href}>
-                            <img src= {items.label} alt= {items.alt} />
+                        <Link to={items.href} target={items.target} rel={items.rel}>
+                            <img src= {items.icon} alt= {items.alt} />
                         </Link>
                     </li>
                 ))}
