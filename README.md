@@ -39,8 +39,9 @@ GLYF/
 ├── src/
 │   ├── assets/
 │   │   ├── logo/ : 로고 저장
-│   │   ├── images/ : 이미지(.svg) 저장
-│   │   │   ├── icons/ : 아이콘 저장
+│   │   └── images/ : 이미지(.svg) 저장
+│   │       ├── icons/ : 아이콘 저장
+│   │       └── pics/ : 사진 저장
 │   │
 │   ├── components/: 공통 컴포넌트 관리
 │   │   ├── Header/: Header 컴포넌트 담당 폴더
