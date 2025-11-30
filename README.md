@@ -54,6 +54,7 @@ GLYF/
 │   │   ├── Main/ : 메인페이지
 │   │        ├── index.tsx: 메인페이지 최상위 컴포넌트
 │   │        ├── InfoSection/ : InfoSection 컴포넌트 담당 폴더
+│   │        ├── IntroduceSection/ : IntroduceSection 컴포넌트 담당 폴더
 │   │ 
 │   ├── App.css
 │   ├── App.tsx : 리액트 애플리케이션의 시작점

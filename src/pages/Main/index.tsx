@@ -1,9 +1,11 @@
-import MainInfo from "./InfoSection";
+import InfoSection from "./InfoSection";
+import IntroduceSection from "./IntroduceSection";
 
 export default function Main(){
     return(
         <>
-            <MainInfo />
+            <InfoSection />
+            <IntroduceSection />
         </>
     );
 }

@@ -5,7 +5,7 @@ import GNB from "./GNB";
 export default function Header() {
     return(
         <>
-            <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between py-8 px-7 bg-white">
+            <header className="fixed top-0 left-0 z-50 w-full flex items-center justify-between py-6 px-7 bg-white">
                 <div>
                     <SideMenu/>
                 </div>

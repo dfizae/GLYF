@@ -1,4 +1,4 @@
-import ForUser from "./forUser";
+import ForUser from './ForUser';
 import MainImage from '../../../assets/images/pics/MainImage.svg';
 
 export default function InfoSection() {
