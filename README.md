@@ -56,6 +56,7 @@ GLYF/
 │   │        ├── InfoSection/ : InfoSection 컴포넌트 담당 폴더
 │   │        ├── IntroduceSection/ : IntroduceSection 컴포넌트 담당 폴더
 │   │        ├── ProductsSection/ : ProductsSection 컴포넌트 담당 폴더
+│   │        ├── RecommendSection/ : RecommendSection 컴포넌트 담당 폴더
 │   │ 
 │   ├── App.css
 │   ├── App.tsx : 리액트 애플리케이션의 시작점
