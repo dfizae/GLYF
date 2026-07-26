@@ -19,3 +19,18 @@ export const menuDate : menuItem[] = [
         {title: "purchase", icon: iconCart, href: "#", alt: "장바구니 링크", target: "_blank", rel: "noopener noreferrer"},
         {title: "delivery", icon: iconDeliver, href: "#", alt: "배송조회 링크", target: "_blank", rel: "noopener noreferrer"},
 ];
+
+export interface sideMenuItem {
+    title: string;
+    href: string;
+};
+
+export const sideMenuData : sideMenuItem[] = [
+        {title: "SHOP", href: "#"},
+        {title: "COMMUNITY", href: "#"},
+        {title: "ABOUT", href: "#"},
+];
+
+export const quickButtons : string[] = [
+        "하이라이터", "하이라이터", "하이라이터", "하이라이터", "하이라이터",
+];
