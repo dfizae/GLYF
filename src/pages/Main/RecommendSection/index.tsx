@@ -1,4 +1,5 @@
-import { recommendData } from "./recommendData";
+import { recommendData } from "./RecommendData";
+import iconCircledRightBlack from "../../../assets/images/icons/iconCircledRightBlack.svg";
 
 export default function RecommendSection() {
     return(
@@ -7,11 +8,11 @@ export default function RecommendSection() {
                 <h1 className="text-6xl font-bold mb-17">Recommend</h1>
                 <div className="absolute top-19 right-[22.5%] flex gap-5 items-center">
                     <span className="font-extrabold">Go To Shop</span>
-                    <img src="/src/assets/images/icons/iconCircledRightBlack.svg" alt="바로가기 창" />
+                    <img src= {iconCircledRightBlack} alt="바로가기 창" />
                 </div>
                 <ul className="flex gap-38">
                     {recommendData.map((data) => (
-                    <li className="flex flex-col items-center">
+                    <li key={data.title} className="flex flex-col items-center">
                         <img src= {data.src} alt= {data.alt} />
                         <p className="text-base font-semibold mt-5">{data.title}</p>
                         <div className="flex gap-3">
