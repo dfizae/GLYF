@@ -1,5 +1,5 @@
 import ForUser from './ForUser';
-import MainImage from '../../../assets/images/pics/MainImage.svg';
+import MainImage from '../../../assets/images/pics/MainImage.jpg';
 
 export default function InfoSection() {
     return(

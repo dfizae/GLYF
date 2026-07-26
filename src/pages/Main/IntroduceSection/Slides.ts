@@ -1,4 +1,4 @@
-import CoverFlow1 from '../../../assets/images/pics/CoverFlow1.svg'
+import CoverFlow1 from '../../../assets/images/pics/CoverFlow1.jpg'
 import CoverFlow2 from '../../../assets/images/pics/CoverFlow2.svg'
 import CoverFlow3 from '../../../assets/images/pics/CoverFlow3.svg'
 
