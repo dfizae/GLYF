@@ -9,7 +9,9 @@ interface MenuPanelProps {
 export default function MenuPanel({ isOpen }: MenuPanelProps) {
     return(
         <div
+            /* h-[calc(100dvh-7.25rem)]: 뷰포트 높이 - 헤더 높이(py-6 + 로고 h-17 = 116px) */
             className={`absolute left-0 top-full w-[471px] bg-white
+                        flex flex-col h-[calc(100dvh-7.25rem)] overflow-y-auto
                         transition-all duration-1000 ease-in-out
                         ${isOpen
                             ? 'opacity-100 translate-y-0 pointer-events-auto'
@@ -29,7 +31,7 @@ export default function MenuPanel({ isOpen }: MenuPanelProps) {
             </ul>
 
             <form
-                className="relative flex justify-center items-center mt-[431px]"
+                className="relative flex justify-center items-center mt-auto pt-10"
                 onSubmit={(e) => e.preventDefault()}
             >
                 <input
