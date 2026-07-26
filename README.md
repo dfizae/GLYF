@@ -39,14 +39,15 @@ GLYF/
 ├── src/
 │   ├── assets/
 │   │   ├── logo/ : 로고 저장
-│   │   └── images/ : 이미지(.svg) 저장
+│   │   └── images/ : 이미지(.svg, .png) 저장
 │   │       ├── icons/ : 아이콘 저장
 │   │       └── pics/ : 사진 저장
+│   │           └── social/ : SocialSection 슬라이드 사진 저장
 │   │
 │   ├── components/: 공통 컴포넌트 관리
-│   │   ├── Header/: Header 컴포넌트 담당 폴더
+│   │   ├── Header/: Header 컴포넌트 담당 폴더 (Logo, GNB, SideMenu)
 │   │   │   └── /..
-│   │   ├── Footer/:
+│   │   ├── Footer/: Footer 컴포넌트 담당 폴더
 │   │       └── /..
 │   │
 │   │
@@ -57,6 +58,7 @@ GLYF/
 │   │        ├── IntroduceSection/ : IntroduceSection 컴포넌트 담당 폴더
 │   │        ├── ProductsSection/ : ProductsSection 컴포넌트 담당 폴더
 │   │        ├── RecommendSection/ : RecommendSection 컴포넌트 담당 폴더
+│   │        ├── SocialSection/ : SocialSection 컴포넌트 담당 폴더
 │   │ 
 │   ├── App.css
 │   ├── App.tsx : 리액트 애플리케이션의 시작점
@@ -72,5 +74,27 @@ GLYF/
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
+<br>
+
+## ⚙️ 구현 기능
+|컴포넌트|설명|
+|:---|:---|
+|`Header`|고정 헤더, 로고/사이드메뉴/GNB(아이콘 메뉴) 구성|
+|`InfoSection`|메인 배너 이미지 + 인사말(From. SOMI) 영역|
+|`IntroduceSection`|브랜드 소개 텍스트 + Swiper Coverflow 슬라이드|
+|`ProductsSection`|제품 라인업 소개 (지그재그 레이아웃)|
+|`RecommendSection`|추천 상품 리스트 (할인율/가격 표시)|
+|`SocialSection`|인스타그램 소셜 슬라이드 (Swiper autoplay, 반응형 3/4/5장)|
+|`Footer`|푸터 로고, 사이트맵 링크, 사업자 정보|
+<br>
+
+## 🚀 실행 방법
+
+```bash
+npm install       # 의존성 설치
+npm run dev       # 개발 서버 실행
+npm run build     # 프로덕션 빌드 (타입체크 포함)
+npm run preview   # 빌드 결과 미리보기
 ```
 
